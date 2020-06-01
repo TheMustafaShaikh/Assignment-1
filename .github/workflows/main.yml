@@ -23,7 +23,7 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: installing node.
-      run: action/setup-node@v2-beta
+      run: actions/setup-node@v2-beta
       with:
         node-version: 12
    
