@@ -27,10 +27,10 @@ jobs:
       with:
         node-version: 12
    
-  -name: installing surge
-  run: npm install -g surge
-  - name: deploying using name
-  run: surge ./ http://a1-mustafa.surge.sh/ --token ${{SECRETTOKEN}}
-               
+      -name: installing surge
+      run: npm install -g surge
+      - name: deploying using name
+      run: surge ./ http://a1-mustafa.surge.sh/ --token ${{SECRETTOKEN}}
+                  
         
         
